@@ -1,0 +1,5 @@
+partyLocation // If the invite said "GARDEN" 🌳
+shiftValue //if he decided to shift by 3:
+encryptedMessage //he would write "JDUGHQ" 
+decryptedMessage //he would find "GARDEN" after -3
+isPartySafe // true or false
