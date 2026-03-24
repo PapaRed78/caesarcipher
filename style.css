@@ -1,31 +1,68 @@
-    h2 { text-align: center; color: red; text-shadow: 2px 2px 4px #000000; font-size: 3.5rem; margin-bottom: 30px; }
+h2 {
+  text-align: center;
+  color: red;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
 
+label {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+}
 
-    label { font-weight: bold; color: black; 
-    font-size: 1.5rem;} 
+h3 {
+  color: green;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+}
 
+body {
+  font-family: sans-serif;
+  padding: 50px;
+  background-image: url("https://t3.ftcdn.net/jpg/02/88/32/38/240_F_288323894_l5xJ33TYl393mfF2GMgA2ECOiGztrN7T.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
 
-    h3 { color: green; text-shadow: 2px 2px 4px #000000; margin-top: 30px; 
-    font-size: 1.5rem; text-align: center; }
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
 
+textarea:hover {
+  background-color: lightgray;
+}
+input:hover {
+  background-color: lightgray;
+}
+button:hover {
+  background-color: green;
+}
 
-    body { font-family: sans-serif; padding: 50px; 
-        background-image: url('https://t3.ftcdn.net/jpg/02/88/32/38/240_F_288323894_l5xJ33TYl393mfF2GMgA2ECOiGztrN7T.jpg');
-        background-size: cover;
-        background-position: 50% 50%;
-        background-attachment: fixed;
-        }
+textarea,
+input,
+button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
 
-    .container { max-width: 500px; margin: 0 auto; }
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
 
-    textarea:hover { background-color: lightgray; }
-    input:hover { background-color: lightgray; }
-    button:hover { background-color: green; }
-
-
-    textarea, input, button { width: 100%; margin-bottom: 15px; padding: 10px; box-sizing: border-box; }
-
-    button { cursor: pointer; background-color: #007BFF; color: white; border: none; }
-
-   
-    #output { padding: 15px; background-color: rgb(21, 255, 0); border: 1px solid black; word-wrap: break-word; }
+#output {
+  padding: 15px;
+  background-color: rgb(21, 255, 0);
+  border: 1px solid black;
+  word-wrap: break-word;
+}
